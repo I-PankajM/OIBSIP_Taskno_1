@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    background:rgba(0, 0, 0, 0.548);
+    
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    padding-left: 50px;
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Supermercado One', cursive;
+    float: left;
+    
+    margin-top: 5px
+}
+
+.logo span{
+        color: 	#FF9900 ;
+        font-size: 50px;
+        font-family: Arial;  
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    padding-left: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.cn {
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    margin-left: 60px;
+    margin-top: 20px;
+    background: #FF9900 ;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: .4s ease;
+    font-family: 'Supermercado One', cursive;    
+}
+.cn a  {
+    text-decoration: none;
+    color:#000;
+    font-family: 'Supermercado One', cursive;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Supermercado One', cursive;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #FF9900 ;
+    
+}
+.cn ul li a :hover{
+    color:#000
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+    margin-left: 50px;
+    color: #fff;
+    position: relative;
+}
+.content h1{
+    font-family: 'Supermercado One', cursive;
+    font-size: 60px;
+    float: left;
+    margin-top: 9%;
+    letter-spacing: 0.5px;   
+}
+.content .cn{
+    width: 180px;
+    height: 50px;
+    background: #FF9900 ;
+    border: none;
+    position: relative;
+    margin-top: 350px;
+    margin-left: -560px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    font-family: 'Supermercado One', cursive;  
+}
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+    font-weight: bold;
+}
+
+.cn:hover{
+    background-color: #fff;
+   
+}
+.container{
+    width: 700px;
+    height: 500px;
+    margin-left:750px;
+    margin-top: -400px;
+    overflow: hidden;
+    border: 8px solid ;
+    border-color: rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+
+}
+.container .slider{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    animation: animate 10s linear infinite;
+}
+.container .slider img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes animate {
+    0%,100%{left: 0;}
+    20%{left: 0;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    
+}
